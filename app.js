@@ -6,9 +6,16 @@ console.log(
 //Lav jeres svar her
 console.log("Hello World");
 
+
 console.log(
-  "opgave 1.2 Lav et program, som skriver “Hello” og på næste linje skriver “World” i konsollen"
+  "Opgave 1.2 - Lav et program, som skriver “Hello” og på næste linje skriver “World” i konsollen"
 )
 //Lav jeres svar her
 console.log("Hello \nWorld");
 
+
+console.log(
+  "Opgave 1.3 - Lav et program, som skriver følgende i konsollen. → "
+)
+//Lav jeres svar her
+console.log("* \n** \n*** \n** \n*");
