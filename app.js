@@ -19,3 +19,11 @@ console.log(
 )
 //Lav jeres svar her
 console.log("* \n** \n*** \n** \n*");
+
+
+console.log(
+  "Opgave 1.4 - Lav et program, hvor i definere en konstant eller variabel og programmet skriver hvilken type det er, i konsollen. (Altså om det er en int, string, bool osv."
+)
+
+let definition = 3 < 5;
+console.log(typeof definition);
