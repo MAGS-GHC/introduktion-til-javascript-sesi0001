@@ -24,6 +24,14 @@ console.log("* \n** \n*** \n** \n*");
 console.log(
   "Opgave 1.4 - Lav et program, hvor i definere en konstant eller variabel og programmet skriver hvilken type det er, i konsollen. (Altså om det er en int, string, bool osv."
 )
-
+//Lav jeres svar her
 let definition = 3 < 5;
 console.log(typeof definition);
+
+
+console.log(
+  "Opgave 1.5 - Print svarene på følgende matematiske operationer ved at skrive det direkte ind i Console.log();"
+)
+//Lav jeres svar her
+console.log(5 + 5);
+
