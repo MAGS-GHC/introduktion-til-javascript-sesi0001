@@ -33,5 +33,9 @@ console.log(
   "Opgave 1.5 - Print svarene på følgende matematiske operationer ved at skrive det direkte ind i Console.log();"
 )
 //Lav jeres svar her
-console.log(5 + 5);
+console.log(10 - 5);
+console.log(25 / 3);
+console.log(25 % 3);
+console.log(25 % 2);
+console.log(3 ** 2);
 
