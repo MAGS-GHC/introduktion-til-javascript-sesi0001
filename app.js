@@ -164,7 +164,7 @@ console.log(
 );
 //Lav jeres svar her
 
-let udeTemp = 17
+let udeTemp = 17;
 
 if (udeTemp <= 0) {
   console.log("Det er frostvejr")
@@ -186,7 +186,7 @@ console.log(
 );
 //Lav jeres svar her
 
-let ugeDag = 3
+let ugeDag = 3;
 
 if (ugeDag == 1) {
   console.log("Det er mandag")
@@ -205,6 +205,195 @@ if (ugeDag == 1) {
 } else {
   console.log("Der er 7 dage på en uge. Intast et tal mellem 1-7 for at finde ugedagen")
 }
+
+
+console.log(
+  "Opgave 3.1 - Lav et program som skriver alle tal fra 1 til 100 ud i konsollen en efter en"
+);
+//Lav jeres svar her
+
+let i = 1;
+
+while (i < 101) {
+  console.log(i);
+  i++;
+}
+
+
+console.log(
+  "Opgave 3.2 - Lav et program som skriver alle tal fra 1 til 102, på følgende måde (Se html-filen)"
+);
+//Lav jeres svar her
+
+for (let i = 0; i < 101; i++) {
+  let j = i + 1;
+  let k = i + 2;
+  console.log(i, j, k);
+  
+}
+
+
+console.log(
+  "Opgave 3.3 - Lavet spillet FizzBuzz, spillet går ud på at man i en rundkreds (loop) skifter til at tælle. (Se html-filen - har brugt for loop)"
+);
+//Lav jeres svar her
+
+for (i_2 = 1; i_2 < 35; i_2++) {
+  if (i_2 % 3 == 0 && i_2 % 5 == 0) {
+    console.log("Fizz Buzz");
+  } else if (i_2 % 3 == 0) {
+    console.log("Fizz")
+  } else if (i_2 % 5 == 0) {
+    console.log("Buzz")
+  } else {
+    console.log(i_2) 
+  }
+}
+
+
+console.log(
+  "Opgave 3.3 - Lavet spillet FizzBuzz, spillet går ud på at man i en rundkreds (loop) skifter til at tælle. (Se html-filen - har brugt while loop)"
+);
+//Lav jeres svar her
+
+let i_3 = 0;
+
+while (i_3 < 35) {
+  if (i_3 % 3 == 0 && i_3 % 5 == 0) {
+    console.log("Fizz Buzz");
+  } else if (i_3 % 3 == 0) {
+    console.log("Fizz")
+  } else if (i_3 % 5 == 0) {
+    console.log("Buzz")
+  } else {
+    console.log(i_3) 
+  }
+  i_3++;
+}
+
+
+console.log(
+  "Opgave 3.4 - Lav et program som udregner det faktorielle af et tal med et loop. Med for-loop)"
+);
+//Lav jeres svar her
+
+let n = 1
+
+for (i_5 = 10; i_5 >= 1; i_5--) {
+  n = n * i_5 
+  if (i_5 == 1) {
+    console.log(n)
+  }
+}
+
+
+console.log(
+  "Opgave 3.4 - Lav et program som udregner det faktorielle af et tal med et loop. Med while-loop)"
+);
+//Lav jeres svar her
+
+let n_2 = 1
+let i_6 = 10
+
+while (i_6 >= 1) {
+  n_2 = i_6 * n_2 
+  i_6--;
+  if (i_6 == 1) {
+    console.log(n_2)
+  } 
+}
+
+
+console.log(
+  "Opgave 3.5 - Lav et program som skriver multiplikationstabel for et givet tal: (se html-dokument)"
+);
+//Lav jeres svar her
+
+let i_4 = 0;
+
+while (i_4 < 9) {
+  i_4++;
+  let resultat = i_4 * 15;
+  console.log("15 * " + i_4 + " = " + resultat);
+}
+
+
+console.log(
+  "Opgave 4.1 - Skriv 'Viborg' i konsollen ved at trække den ud fra følgende array (se html-dokumentet)"
+);
+//Lav jeres svar her
+
+byer = ["Randers", "Viborg", "Aarhus", "København"];
+console.log(byer[1])
+
+
+console.log(
+  "Opgave 4.2 - Tilføj 'Skive' til denne array"
+);
+//Lav jeres svar her
+
+byer = ["Randers", "Viborg", "Aarhus", "København"];
+byer.push("Skive")
+console.log(byer)
+
+
+console.log(
+  "Opgave 4.3 - Erstat den værdi, uden at ændre direkte i arraye'et, som ikke passer ind, så array'et stemmer"
+);
+//Lav jeres svar her
+
+talrække = [0, 1, 0, 3, 4, 5, 6];
+talrække.splice(2, 1)
+console.log(talrække)
+
+
+console.log(
+  "Opgave 4.4 - Skriv, i konsollen, den største værdi fra følgende array. Selvfølgelig ikke manuelt."
+);
+//Lav jeres svar her
+
+talrække = [1, 2, 3, 4, 11, 55, 99, 100];
+console.log(Math.max(...talrække))
+
+
+console.log(
+  "Opgave 4.5 - Sorter den her array"
+);
+//Lav jeres svar her
+
+talrække = [0, 12, 0, 22, 300, 4, 5];
+talrække.sort(function(a, b) {return a - b});
+console.log(talrække)
+
+
+console.log(
+  "Opgave 4.6 - Sorter den her array"
+);
+//Lav jeres svar her
+
+talrække_2 = [0, 12, 0, 22, 300, 4, 5];
+talrække_2.sort(function(a, b) {return a - b});
+talrække_2.reverse();
+console.log(talrække_2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
