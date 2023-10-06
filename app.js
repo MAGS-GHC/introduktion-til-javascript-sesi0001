@@ -377,6 +377,175 @@ talrække_2.reverse();
 console.log(talrække_2)
 
 
+console.log(
+  "Opgave 5.1 - Skriv noget kode eller kode sammen med en knap, så i eksekvere følgende funktion: (se html-dokument)"
+);
+//Lav jeres svar her
+
+function myFunction() {
+  console.log("Hello World")
+ }
+
+ myFunction()
+
+
+ console.log(
+  "Opgave 5.2 - I skal lave en funktion som tager 2 tal og returnerer summen af dem: (se html-dokument)"
+);
+//Lav jeres svar her
+
+function sumFunction(tal_1, tal_2) {
+  return tal_1 + tal_2;
+}
+
+let result = sumFunction(3, 5);
+console.log(result);
+
+
+console.log(
+  "Opgave 5.3 - Lav en funktion som returnerer true hvis man skriver “Ja” som input og false ved alt andet"
+);
+//Lav jeres svar her
+
+function truthFunction(input) {
+  if (input == "Ja" || input == "ja") {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+let brugerInput = truthFunction("Ja");
+console.log(brugerInput);
+
+
+console.log(
+  "Opgave 5.4 - Lav en funktion som fungere som en password-tjekker, i skal definere et password i koden og derefter lave en funktion som kun skriver true hvis man skriver det rigtige kodeord og false hvis det er forkert"
+);
+//Lav jeres svar her
+
+password = "QW67jd"
+
+function passwordFunction(passwordInput) {
+  if (password == passwordInput) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+let brugerPassword = passwordFunction("QW67jd");
+console.log(brugerPassword);
+
+
+console.log(
+  "Opgave 5.5 - Lav en funktion som fungere som en password-tjekker, i skal definere et password i koden og derefter lave en funktion som kun skriver true hvis man skriver det rigtige kodeord og false hvis det er forkert"
+);
+//Lav jeres svar her
+
+bruger = "Seb123"
+
+function brugerFunction(brugerInput) {
+  bruger = bruger.toLowerCase()
+  brugerInput = brugerInput.toLowerCase()
+  if (bruger == brugerInput) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+let brugerNavn = brugerFunction("SEB123");
+console.log(brugerNavn);
+
+
+console.log(
+  "Opgave 6.1 - Lav et program som summere følgende array, uden brug af Aggregat Funktioner: (Se html-fil)"
+);
+//Lav jeres svar her
+
+talrække = [0, 12, 0, 22, 300, 4, 5];
+sum = 0
+
+for (let iterationer = 0; iterationer < talrække.length; iterationer++) {
+  sum += talrække[iterationer];
+}
+
+console.log(sum);
+
+
+console.log(
+  "Opgave 6.2 - Lav et program som skriver alle værdierne i dette array, ved brug af foreach: (Se html-fil)"
+);
+//Lav jeres svar her
+
+let talrække_7 = [0, 12, 0, 22, 300, 4, 5];
+
+talrække_7.forEach((element) => console.log(element));
+
+
+console.log(
+  "Opgave 6.3 - Lav et program som returnere indexet af det højeste tal, altså giver dens placering i begge disse arrays (Se html-fil)"
+);
+//Lav jeres svar her
+
+talrække_8 = [0, 12, 0, 22, 300, 4, 5, 12, 12, 212, 12];
+talrække_9 = [11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 122];
+
+console.log(Math.max(...talrække_8));
+console.log(Math.max(...talrække_9));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
